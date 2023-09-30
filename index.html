@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarun hasija portfolio website</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Belanosima&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/422ce70c27.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- navbar and heading -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/designedlogo.png" alt="logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>WEB-DEV ENTHUSIAST</p>
+                <h1>Hi , I'm
+                    <span style="color: #FF5F1F;">T</span>ar<span style="color: #FF5F1F;">u</span>n Hasija
+                </h1>
+                <div class="phone-view">
+                    <img src="./images/mainpic.png" alt="My Photo" style="height: 350px;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------ about ------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/about_pic.png" alt="" style="margin-top: 50px;">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"><span style="color: #FF5F1F;">A</span>bo<span
+                            style="color: #FF5F1F;">u</span>t me</h1>
+                    <p>
+                        Welcome to my portfolio! I'm a BCA student with a passion for Frontend Web Development, App
+                        Development, and UI design. In this ever-changing digital landscape, I'm committed to creating
+                        captivating and user-friendly experiences through continuous learning and creative
+                        problem-solving.
+
+                        As a Frontend Developer, I specialize in crafting visually appealing, responsive websites that
+                        exceed user expectations. My attention to detail and understanding of user behavior ensure that
+                        my work is both aesthetically pleasing and functional.
+
+                        My expertise also extends to App Development, where I build interactive and intuitive mobile
+                        applications that are tailored to users' unique needs and prioritize seamless user experiences.
+
+                        In UI design, I blend technical skills with a keen design sense to deliver engaging interfaces
+                        that are both visually appealing and easy to use.
+
+                        I invite you to join me on this exciting journey of technology and innovation as we explore the
+                        endless possibilities of digital experiences together. Thank you for visiting my portfolio!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links " onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web-Development</span><br>Design Websites</li>
+                            <li><span>App-Development</span><br>Design Apps</li>
+                            <li><span>UI/UX</span><br>Design Websites Interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Year</span><br>Experience</li>
+                            <li><span>Year</span><br>Experience</li>
+                            <li><span>Year</span><br>Experience</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022-2025</span><br>BCA from VIPS</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- services -->
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"><span style="color: #FF5F1F;">M</span>y <span style="color: #FF5F1F;">S</span>ervices
+            </h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>WEB-DEV</h2>
+                    <p>I offer expert web development services, specializing in creating responsive, user-friendly websites. With a focus on aesthetics and functionality, I bring your digital vision to life. Let's build your online presence today!</p>
+                    
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>APP-DEV</h2>
+                    <p>I offer expert App Development services, crafting innovative and user-centric mobile applications. From concept to deployment, I bring your app ideas to life with precision and creativity..</p>
+                    
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX</h2>
+                    <p>I offer top-notch UI/UX design services, crafting intuitive and visually appealing interfaces that enhance user experiences. Let's create designs that captivate and engage your audience effectively..</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----Portfolio------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/Screenshot 2023-09-29 205453.png" alt="">
+                    <div class="layer">
+                        <h3>Web UI</h3>
+                        <p>Designed a Animated landing page of Juice company using Figma</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/1ygwKSkZm99vBDJ8QFpXk4w.png" alt="">
+                    <div class="layer">
+                        <h3>App UI</h3>
+                        <p>Designed a Application UI in Flutter for a E-wallet company</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/Screenshot 2023-09-29 185812.png" alt="">
+                    <div class="layer">
+                        <h3>Website Login Page</h3>
+                        <p>Designed an Aesthetic Login page</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btnn">See more</a>
+        </div>
+    </div>
+
+    <!-- ----contact----- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="cont-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>Tarunhasija999@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9868101088</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/tarun_.exe/"><i class="fa-brands fa-instagram insta icons"></i></a>
+                        <a href="https://www.linkedin.com/in/tarun-hasija-a5514825b/"><i class="fa-brands fa-linkedin linked icons"></i></a>
+                        <a href="https://github.com/TarunHasija"><i class="fa-brands fa-github git icons"></i></a>
+                        <a href="https://www.facebook.com/tarun.hasija.7370/"><i class="fa-brands fa-facebook fb icons"></i></a>
+                    </div>
+                </div>
+                <div class="cont-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <div class="button-center">
+                            <button class="btnnn">SUBMIT</button>
+                        </div>
+                    </form>
+                    <span id="msg">Hello</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyE4HcX_loW05y4oNuOU9yzd6f2BeSZypZPQsD4j8L1CMT8h6VWaVZXxUfn7inxw_v4zw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent Successfully";
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset();
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
