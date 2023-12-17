@@ -4,6 +4,7 @@ html {
   scroll-behavior: smooth;
 }
 * {
+  
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
@@ -18,7 +19,6 @@ body {
   width: 100%;
   height: 100vh;
   background-image: url("images/background2.png");
-
   background-size: cover;
   background-position: center;
 }
@@ -57,8 +57,9 @@ nav ul li a::after {
   transform: translateX(-50%);
   bottom: -4px;
   transition: 0.5s;
-  transform-origin: center;
+  
 }
+
 nav ul li a:hover::after {
   width: 100%;
 }
@@ -193,7 +194,7 @@ nav ul li a:hover::after {
   box-shadow: rgba(171, 108, 76, 0.45) 0px 50px 100px -20px,
     rgba(230, 11, 11, 0.5) 0px 30px 60px -30px,
     rgba(253, 100, 5, 0.55) 0px -2px 6px 0px inset;
-  transition: transform 0.6s ease;
+  transition: transform 0.6s;
 }
 
 #portfolio {
@@ -373,7 +374,7 @@ form textarea {
 
 .btnnn:hover {
   transform: translateY(3px);
-  box-shadow: none;
+ 
 }
 
 .btnnn:active {
@@ -434,7 +435,7 @@ nav .fas {
   }
 }
 /* used this for navbar lenght  */
-@media only screen and (max-width: 990px) {
+@media screen and (max-width: 990px) {
   nav .fas {
     display: block;
   }
@@ -446,12 +447,10 @@ nav .fas {
     width: 180px;
     height: 100vh;
     padding-top: 50px;
-    z-index: 2;
     transition: right 0.5s;
   }
   .about-col-1,
   .about-col-2 {
-    flex-basis: 80%;
     margin-left: 30px;
   }
   .about-col-1 {
@@ -481,6 +480,7 @@ nav .fas {
 #msg {
   color: #ffffff;
   margin-top: -10px;
+  font-weight: 500;
   margin-bottom: 20px;
   display: block;
   text-align: center;
