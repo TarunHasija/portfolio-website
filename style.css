@@ -194,7 +194,7 @@ nav ul li a:hover::after {
   box-shadow: rgba(171, 108, 76, 0.45) 0px 50px 100px -20px,
     rgba(230, 11, 11, 0.5) 0px 30px 60px -30px,
     rgba(253, 100, 5, 0.55) 0px -2px 6px 0px inset;
-  transition: transform 0.6s;
+  transition: transform 0.4s ease-in-out;
 }
 
 #portfolio {
@@ -270,7 +270,7 @@ nav ul li a:hover::after {
   padding: 10px 30px;
 }
 .btnn:hover {
-  background-color: #ff5f1f;
+  background:linear-gradient(#ff5f1f,rgb(255, 137, 41));
   transition: background 0.5s;
 }
 .cont-left {
