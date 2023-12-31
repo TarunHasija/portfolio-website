@@ -4,6 +4,9 @@ html {
   scroll-behavior: smooth;
   
 }
+html,body{
+  overflow-x: hidden;
+}
 * {
   
   margin: 0;
@@ -15,6 +18,7 @@ html {
 body {
   background: #131313;
   color: #fff;
+  overflow-x: hidden;
 }
 #header {
   width: 100%;
@@ -216,7 +220,6 @@ nav ul li a:hover::after {
   overflow: hidden;
 }
 .work img {
-  z-index: 2;
   border-radius: 15px;
   display: block;
   width: 100%;
@@ -440,6 +443,13 @@ nav .fas {
 }
 /* used this for navbar lenght  */
 @media screen and (max-width: 990px) {
+  .para{
+    text-align:justify;
+    padding-right: 20px;
+  }
+  .social-icons{
+    text-align: center;
+  }
   nav .fas {
     display: block;
   }
@@ -452,14 +462,17 @@ nav .fas {
     height: 100vh;
     padding-top: 50px;
     transition: right 0.5s;
+    z-index: 1;
   }
   .about-col-1,
   .about-col-2 {
-    margin-left: 30px;
+    margin-left: 10px;
+   
   }
   .about-col-1 {
     margin-left: 40px;
   }
+
 
   nav ul li {
     display: block;
@@ -490,3 +503,4 @@ nav .fas {
   display: block;
   text-align: center;
 }
+
