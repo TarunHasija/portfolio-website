@@ -210,11 +210,13 @@ nav ul li a:hover::after {
   margin-top: 50px;
 }
 .work {
+  
   border-radius: 15px;
   position: relative;
   overflow: hidden;
 }
 .work img {
+  z-index: 2;
   border-radius: 15px;
   display: block;
   width: 100%;
